@@ -52,11 +52,13 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'csp.middleware.CSPMiddleware'
 ]
 
 ROOT_URLCONF = 'quickstartproject.urls'
 
-X_FRAME_OPTIONS = 'ALLOW-FROM https://www.w3schools.com'
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+CSP_FRAME_ANCESTORS = 'frame-ancestors https://www.w3schools.com'
 
 TEMPLATES = [
     {
