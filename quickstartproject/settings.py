@@ -58,7 +58,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'quickstartproject.urls'
 
 #X_FRAME_OPTIONS = 'SAMEORIGIN'
-CSP_FRAME_ANCESTORS = ("'none'","https://www.w3schools.com")
+CSP_FRAME_ANCESTORS = ("https://www.w3schools.com")
 
 TEMPLATES = [
     {
