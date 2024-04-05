@@ -59,7 +59,6 @@ ROOT_URLCONF = 'quickstartproject.urls'
 
 X_FRAME_OPTIONS = 'DENY'
 CSP_FRAME_ANCESTORS = ("https://translate.google.com/", "https://www.w3schools.com/")
-CSP_STYLE_SRC = ('self','unsafe-inline')
 #CSP_DEFAULT_SRC = ("'self'","https://www.w3schools.com")
 
 TEMPLATES = [
