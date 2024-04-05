@@ -58,7 +58,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'quickstartproject.urls'
 
 X_FRAME_OPTIONS = 'DENY'
-CSP_FRAME_ANCESTORS = ("")
+CSP_FRAME_ANCESTORS = ("https://translate.google.com/")
 #CSP_DEFAULT_SRC = ("'self'","https://www.w3schools.com")
 
 TEMPLATES = [
